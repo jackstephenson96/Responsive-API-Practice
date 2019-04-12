@@ -55,7 +55,7 @@ function updateCover(id, isbn) {
   })
   .catch(error => {
     console.log(error);
-    console.log('Googel API Error: Defaulting to archival images for book #' + id + ' ISBN: ' + isbn);
+    console.log('Google API Error: Defaulting to archival images for book #' + id + ' ISBN: ' + isbn);
     var index = id - 1;
     var img = archivedImages[index];
     $('#cover-' + id).attr('src', img);
