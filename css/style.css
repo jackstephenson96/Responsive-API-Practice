@@ -105,11 +105,8 @@
   #best-seller-titles {
     grid-template-columns: 1fr 1fr;
     max-width: initial;
-    justify-items: center;
-/*    margin: initial;
-*/  }
+  }
   .entry {
-    max-width: 475px;
-    margin: 30px 30px;
+    margin: 20px;
   }
 } 
